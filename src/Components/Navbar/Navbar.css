@@ -1,3 +1,31 @@
-.flex{
-    display: flex;
+.navbar{
+    background-color: #2F302C;
+    color: white;
+    width: 100vw;
+    height: 7.375em;
+    padding: 0em 2em;
+}
+.Logo-Text{
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 0.625em;
+}
+.Navbar-Content{
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+.tabs{
+    padding: 1.8em;
+}
+.search-logo{
+    border-bottom: 1px solid white;
+}
+.search-box{
+    background-color: #2F302C;
+    border-bottom: 1px solid white;
+    width: 20.25em;
+    min-height: 2.75em;
+    padding: 0.75em 0.75em;
+
 }
