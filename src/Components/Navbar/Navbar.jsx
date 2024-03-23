@@ -91,6 +91,7 @@ const Navbar = () => {
         <IoSearch className="search-logo arrowWindow" size={30} />
         <IoSearch className="search-logo arrowMobile" size={20} />
         <input
+          id="search"
           type="text"
           placeholder="Search Something"
           className="search-box"
