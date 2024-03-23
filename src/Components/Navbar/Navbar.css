@@ -16,7 +16,8 @@
     line-height: 1.25em;
 }
 .tabs{
-    padding: 0.5em;
+    padding: 12px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -29,7 +30,7 @@
     background-color: #2F302C;
     
     min-width: 160px;
-    width: 320px;
+    width: 200px;
     min-height: 44px;
     padding: 0.4em;
     outline: none;
@@ -42,6 +43,7 @@
 .search-bar{
     position: relative;
     width: fit-content;
+    margin-right: 50px;
 
 }
 .min-w{
@@ -51,4 +53,89 @@
     top: 75px;
     left: 0px;
     
+}
+@media (max-width:1700px){
+    .tab-9{
+        display: none;;
+    }
+}
+@media (max-width:1600px){
+    .tab-8{
+        display: none;;
+    }
+}
+@media (max-width:1450px){
+    .tab-7{
+        display: none;;
+    }
+}
+@media (max-width:1330px){
+    .tab-6{
+        display: none;;
+    }
+}
+@media (max-width:1250px){
+    .tab-5{
+        display: none;;
+    }
+}
+@media (max-width:1140px){
+    .tab-4{
+        display: none;;
+    }
+}
+@media (max-width:1045px){
+    .tab-3{
+        display: none;;
+    }
+}
+@media (max-width:940px){
+    .tab-2{
+        display: none;;
+    }
+}
+@media (max-width:840px){
+    .tab-1{
+        display: none;;
+    }
+}
+@media (max-width:750px){
+    .tab-0{
+        display: none;;
+    }
+}
+.arrowMobile{
+    display: none;
+}
+@media (max-width:720px){
+    .Logo-Text{
+        font-size: 1.2em;
+    }
+    .search-box{
+         min-width: 100px;
+         width: 150px;
+         min-height: 30px;
+         font-size: 0.7em;
+         padding-left: 35px;
+        
+    }
+    .arrowMobile{
+        display: block;
+    }
+    .arrowWindow{
+        display: none;
+    }
+    .more{
+        font-size: 0.7em;
+    }
+    .navbar{
+        padding: 0em 5px;
+    }
+    .search-bar{
+        position: relative;
+        width: fit-content;
+        margin-right: 15px;
+    
+    }
+   
 }

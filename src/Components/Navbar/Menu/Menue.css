@@ -9,3 +9,56 @@
     border-radius: 8px;
     font-weight: 700;
 }
+.menuLi{
+    display: none;
+}
+@media (max-width:1700px){
+    .menu-9{
+        display: block;;
+    }
+}
+@media (max-width:1600px){
+    .menu-8{
+        display: block;;
+    }
+}
+@media (max-width:1450px){
+    .menu-7{
+        display: block;;
+    }
+}
+@media (max-width:1330px){
+    .menu-6{
+        display: block;;
+    }
+}
+@media (max-width:1250px){
+    .menu-5{
+        display: block;;
+    }
+}
+@media (max-width:1140px){
+    .menu-4{
+        display: block;;
+    }
+}
+@media (max-width:1045px){
+    .menu-3{
+        display: block;;
+    }
+}
+@media (max-width:940px){
+    .menu-2{
+        display: block;;
+    }
+}
+@media (max-width:840px){
+    .menu-1{
+        display: block;;
+    }
+}
+@media (max-width:750px){
+    .menu-0{
+        display: block;;
+    }
+}

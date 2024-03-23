@@ -13,6 +13,8 @@
     font-size: 1.5em;
     font-weight: 400 ;
     color: black;
+    margin-top: -2.5vh;
+    margin-bottom: 5.5vh;
 }
 @media (max-width : 550px) {
     .heading{
@@ -21,7 +23,7 @@
     }
     .subheading{
         margin-bottom: 5vh;
-        margin-top: -3vh;
+        margin-top: -4vh;
         font-size: 1.2em;
     }
 

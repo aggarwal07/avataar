@@ -7,9 +7,9 @@ import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [conditionalWidth, setConditionalWidth] = useState(1760);
-  const [responsiveIndex, setResponsiveIndex] = useState(10);
+  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  // const [conditionalWidth, setConditionalWidth] = useState(1760);
+  // const [responsiveIndex, setResponsiveIndex] = useState(10);
   const toggleMenue = () => {
     setMenuOpen(!isMenuOpen);
   };
@@ -54,36 +54,37 @@ const Navbar = () => {
       id: 10,
       title: "Botanical",
     },
-    {
-      id: 11,
-      title: "Category Name",
-    },
+    // {
+    //   id: 11,
+    //   title: "Category Name",
+    // },
+    
   ];
-  const handleResize = () => {
-    if (conditionalWidth-windowWidth>150){
-      setConditionalWidth(windowWidth);
-      setResponsiveIndex(responsiveIndex-1);
-    }
-    if (windowWidth-conditionalWidth>150){
-      setConditionalWidth(windowWidth);
-      setResponsiveIndex(responsiveIndex+1);
-    }
-    const newWidth = window.innerWidth;
-    setWindowWidth(newWidth);
-  };
+  // const handleResize = () => {
+  //   if (conditionalWidth-windowWidth>150){
+  //     setConditionalWidth(windowWidth);
+  //     setResponsiveIndex(responsiveIndex-1);
+  //   }
+  //   if (windowWidth-conditionalWidth>150){
+  //     setConditionalWidth(windowWidth);
+  //     setResponsiveIndex(responsiveIndex+1);
+  //   }
+  //   const newWidth = window.innerWidth;
+  //   setWindowWidth(newWidth);
+  // };
   
 
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
+  // useEffect(() => {
+  //   window.addEventListener("resize", handleResize);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [windowWidth]);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, [windowWidth]);
   return (
-    <div className="flex navbar justify-center item-center">
+    <div className="flex navbar justify-between item-center">
       {/* <p>{windowWidth}</p> */}
-      <div className="flex w-fit mx-auto">
+      {/* <div className="flex w-fit mx-auto"> */}
 
       
       <div className="logo flex w-fit h-fit item-center">
@@ -92,16 +93,21 @@ const Navbar = () => {
       </div>
       <div className="Navbar-Content flex item-center uppercase">
         {tabs.map((item, i) => (
-          <p className={`tabs min-w pointer ${i>=responsiveIndex?"hidden":"flex"}`} key={i}>
+          <p className={`tabs  pointer ${/*i>=responsiveIndex?"hidden":"flex"*/""} tab-${i}`} key={i}>
             {item.title}
           </p>
         ))}
-        <div className="tabs dropdown-container pointer flex relative">
+        <div className="tabs dropdown-container pointer flex relative more">
           More
           <RiArrowDropDownLine
             onClick={toggleMenue}
             size={40}
-            className="pointer "
+            className="pointer arrowWindow "
+          />
+          <RiArrowDropDownLine
+            onClick={toggleMenue}
+            size={27}
+            className="pointer arrowMobile"
           />
           {isMenuOpen && (
             <div className="absolute menu">
@@ -111,14 +117,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className="search-bar flex item-center">
-        <IoSearch className="search-logo" size={30} />
+        <IoSearch className="search-logo arrowWindow" size={30} />
+        <IoSearch className="search-logo arrowMobile" size={20} />
         <input
           type="text"
           placeholder="Search Something"
           className="search-box"
         />
       </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
