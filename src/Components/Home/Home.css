@@ -1,6 +1,7 @@
 .home{
     margin-top: 5vh;
     margin-bottom: 3vh;
+    padding: 0 0.5vw;
 }
 .heading{
     font-size: 4em;
@@ -12,4 +13,17 @@
     font-size: 1.5em;
     font-weight: 400 ;
     color: black;
+}
+@media (max-width : 550px) {
+    .heading{
+        font-size:2.8em;
+        line-height: 0.9em;
+    }
+    .subheading{
+        margin-bottom: 5vh;
+        margin-top: -3vh;
+        font-size: 1.2em;
+    }
+
+
 }

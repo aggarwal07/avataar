@@ -73,9 +73,9 @@ const Carousel = () => {
         </div>}
       </div>
       <div className="dotsBox">
-        <FaArrowLeft className="arrows" size={20} onClick={() => {index>0&&setIndex(index - 1);index>0&& backward(); }} />
+        <FaArrowLeft className={`arrows ${index===0?"hidden":""}`} size={20} onClick={() => {index>0&&setIndex(index - 1);index>0&& backward(); }} />
         {sliderImg.map((item, i) => (<div key={i} className={`${i === index ? "selected-dot" : "dots"}`}></div>))}
-        <FaArrowRight className="arrows" size={20} onClick={() => {index<sliderImg.length-1&& setIndex(index + 1);index<sliderImg.length-1&&  forward(); }} />
+        <FaArrowRight className={`arrows ${index===sliderImg.length-1?"hidden":""}`} size={20} onClick={() => {index<sliderImg.length-1&& setIndex(index + 1);index<sliderImg.length-1&&  forward(); }} />
       </div>
     </div>
   );

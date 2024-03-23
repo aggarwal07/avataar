@@ -2,8 +2,8 @@
     background-color: #2F302C;
     color: white;
     width: 100vw;
-    height: 7.375em;
-    padding: 0em 2em;
+    height: 118ox;
+    padding: 0em 32px;
 }
 .Logo-Text{
     font-weight: 800;
@@ -28,8 +28,9 @@
 .search-box{
     background-color: #2F302C;
     
-    min-width: 20.25em;
-    min-height: 2.75em;
+    min-width: 160px;
+    width: 320px;
+    min-height: 44px;
     padding: 0.4em;
     outline: none;
     color:white;
@@ -44,7 +45,7 @@
 
 }
 .min-w{
-    min-width: 5em;
+    min-width: 80px;
 }
 .menu{
     top: 75px;

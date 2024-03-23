@@ -1,6 +1,6 @@
 .imageBox{
-    width: 49em;
-    height: 32em;
+    width: 784px;
+    height: 512px;
     position: relative;
     border-radius: 1.5em;
     overflow: hidden;
@@ -18,7 +18,7 @@
     bottom: -1.1em;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    height: 3em;
+    height: 48px;
     width: 100%;
     font-size: 1.5em;
     font-weight: 600;
@@ -30,8 +30,8 @@
 }
 .dots{
     border-radius: 100%;
-    height: 0.8em;
-    width: 0.8em;
+    height: 13px;
+    width: 13px;
     background-color: rgb(218, 210, 210);
     margin: 0px 6px;
 }
@@ -43,8 +43,8 @@
 }
 .selected-dot{
     border-radius: 1em;
-    height: 0.8em;
-    width: 2em;
+    height: 12.8px;
+    width: 32px;
     background-color: aqua;
     margin: 0px 6px;
 }
@@ -59,8 +59,8 @@
     align-items: center;
 }
 .second-row{
-    width: 35em;
-    height: 22em;
+    width: 560px;
+    height: 352px;
     position: relative;
     border-radius: 1.5em;
     overflow: hidden;
@@ -80,8 +80,8 @@
     right: 12vw;
 }
 .third-row{
-    width: 25em;
-    height: 15em;
+    width: 400px;
+    height: 240px;
     position: relative;
     border-radius: 1.5em;
     overflow: hidden;
@@ -100,4 +100,41 @@
 .right-3{
     right: 2vw;
 }
-
+@media (max-width:900px){
+    .imageBox{
+        width: 584px;
+        height: 350px;
+    }
+    .second-row{
+        width: 450px;
+        height: 250px;
+    }
+    .third-row{
+        width: 290px;
+        height: 180px;
+    }
+    .caption{
+        font-size: 1.5em;
+        
+    }
+        
+}
+@media (max-width:550px){
+    .imageBox{
+        width: 360px;
+        height: 350px;
+    }
+    .second-row{
+        width: 250px;
+        height: 250px;
+    }
+    .third-row{
+        width: 180px;
+        height: 180px;
+    }
+    .caption{
+        font-size: 1em;
+        
+    }
+        
+}
