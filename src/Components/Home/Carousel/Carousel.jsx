@@ -6,27 +6,27 @@ const Carousel = () => {
   const sliderImg = [
     {
       "id": 0,
-      "src": "./images/slider/1.png",
+      "src": "./Images/slider/1.png",
       "captions": ""
     },
     {
       "id": 1,
-      "src": "./images/slider/2.png",
+      "src": "./Images/slider/2.png",
       "captions": ""
     },
     {
       "id": 2,
-      "src": "./images/slider/3.png",
+      "src": "./Images/slider/3.png",
       "captions": ""
     },
     {
       "id": 3,
-      "src": "./images/slider/4.png",
+      "src": "./Images/slider/4.png",
       "captions": ""
     },
     {
       "id": 4,
-      "src": "./images/slider/5.png",
+      "src": "./Images/slider/5.png",
       "captions": ""
     },
   ];
