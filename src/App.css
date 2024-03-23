@@ -76,3 +76,10 @@
 .mx-auto{
   margin:0 auto ;
 }
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.text-center{
+  text-align: center;
+}
