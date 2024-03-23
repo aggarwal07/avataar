@@ -1,0 +1,11 @@
+.menuList{
+    list-style: none;
+    height: fit-content;
+    padding: 5px 15px;
+    width: 10.15em;
+    background-color: #2F302C;
+    color: white;
+    border: 0.5px solid #D3D2D2;
+    border-radius: 8px;
+    font-weight: 700;
+}

@@ -52,3 +52,27 @@
 .h-fit{
   height: fit-content;
 }
+.uppercase{
+  text-transform: uppercase;
+}
+.pointer{
+  cursor: pointer;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.hidden{
+  display: none;
+}
+.block{
+  display: block;
+}
+.justify-center{
+  justify-content: center;
+}
+.mx-auto{
+  margin:0 auto ;
+}

@@ -16,16 +16,38 @@
     line-height: 1.25em;
 }
 .tabs{
-    padding: 1.8em;
+    padding: 0.5em;
+    justify-content: center;
+    align-items: center;
 }
 .search-logo{
-    border-bottom: 1px solid white;
+ display: block;  
+ position: absolute; 
+ padding-left: 6px;
 }
 .search-box{
     background-color: #2F302C;
-    border-bottom: 1px solid white;
-    width: 20.25em;
+    
+    min-width: 20.25em;
     min-height: 2.75em;
-    padding: 0.75em 0.75em;
+    padding: 0.4em;
+    outline: none;
+    color:white;
+    font-size: 1em;
+    padding-left: 45px;
 
+}
+
+.search-bar{
+    position: relative;
+    width: fit-content;
+
+}
+.min-w{
+    min-width: 5em;
+}
+.menu{
+    top: 75px;
+    left: 0px;
+    
 }
