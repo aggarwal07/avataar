@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div className='flex-col item-center home'>
       <div className='text-center'>
-        <p className='heading'>heading</p>
-        <p className='subheading'>subheading</p>
+        <p className='heading'>Featured Products</p>
+        <p className='subheading'>Explore and discover a variety of products</p>
       </div>
       <Carousel/>
     </div>
