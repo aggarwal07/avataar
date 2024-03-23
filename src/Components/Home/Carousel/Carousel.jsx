@@ -3,6 +3,16 @@ import "./Carousel.css";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const Carousel = () => {
+  const handleClick = () => {
+    // Check if the vibration API is supported
+    if ('vibrate' in navigator) {
+      // Vibrate for 100 milliseconds
+      navigator.vibrate(100);
+    } else {
+      // Fallback if the vibration API is not supported
+      console.log('Vibration API not supported');
+    }
+  };
   const sliderImg = [
     {
       "id": 0,
@@ -73,9 +83,9 @@ const Carousel = () => {
         </div>}
       </div>
       <div className="dotsBox">
-        <FaArrowLeft className={`arrows ${index===0?"hidden":""}`} size={20} onClick={() => {index>0&&setIndex(index - 1);index>0&& backward(); }} />
+        <FaArrowLeft className={`arrows ${index===0?"hidden":""}`} size={20} onClick={() => {index>0&&setIndex(index - 1);index>0&& backward(); handleClick(); }} />
         {sliderImg.map((item, i) => (<div key={i} className={`${i === index ? "selected-dot" : "dots"}`}></div>))}
-        <FaArrowRight className={`arrows ${index===sliderImg.length-1?"hidden":""}`} size={20} onClick={() => {index<sliderImg.length-1&& setIndex(index + 1);index<sliderImg.length-1&&  forward(); }} />
+        <FaArrowRight className={`arrows ${index===sliderImg.length-1?"hidden":""}`} size={20} onClick={() => {index<sliderImg.length-1&& setIndex(index + 1);index<sliderImg.length-1&&  forward(); handleClick(); }} />
       </div>
     </div>
   );
