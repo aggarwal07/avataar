@@ -68,7 +68,7 @@ const Navbar = () => {
             {item.title}
           </p>
         ))}
-        <div className="tabs dropdown-container pointer flex relative more">
+        <div className="tabs dropdown-container pointer flex relative more moreHidden">
           More
           <RiArrowDropDownLine
             onClick={toggleMenue}

@@ -119,7 +119,7 @@
     }
         
 }
-@media (max-width:550px){
+@media (max-width:700px){
     .imageBox{
         width: 360px;
         height: 350px;
@@ -135,6 +135,75 @@
     .caption{
         font-size: 1em;
         
+    }
+        
+}
+@media (max-width:550px){
+    .imageBox{
+        width: 300px;
+        height: 300px;
+    }
+    .second-row{
+        width: 210px;
+        height: 210px;
+    }
+    .third-row{
+        width: 160px;
+        height: 160px;
+    }
+    .left-2{
+        left: 6.5vw;
+    }
+    .right-2{
+        right: 6.5vw;
+    }
+    .left-3{
+        left: 3.2vw;
+    }
+    .right-3{
+        right: 3.2vw;
+    }
+        
+}
+@media (max-width:1250px){
+    .left-2{
+        left: 8vw;
+    }
+    .right-2{
+        right: 8vw;
+    }
+    .left-3{
+        left: 3.2vw;
+    }
+    .right-3{
+        right: 3.2vw;
+    }
+        
+}
+@media (min-width: 700px) and  (max-width:970px){
+    .imageBox{
+        width: 650px;
+        height: 450px;
+    }
+    .second-row{
+        width: 500px;
+        height: 300px;
+    }
+    .third-row{
+        width: 350px;
+        height: 220px;
+    }
+    .left-2{
+        left: 5vw;
+    }
+    .right-2{
+        right: 5vw;
+    }
+    .left-3{
+        left: 3.2vw;
+    }
+    .right-3{
+        right: 3.2vw;
     }
         
 }

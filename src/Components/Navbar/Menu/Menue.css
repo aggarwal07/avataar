@@ -1,16 +1,21 @@
 .menuList{
     list-style: none;
     height: fit-content;
-    padding: 5px 15px;
+    padding: 0px 0px;
     width: 162px;
     background-color: #2F302C;
     color: white;
     border: 0.5px solid #D3D2D2;
     border-radius: 8px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .menuLi{
     display: none;
+    padding: 10px;
+}
+.menuLi:hover{
+    background-color: #EEEEEE;
+    color: #000;
 }
 @media (max-width:1700px){
     .menu-9{

@@ -46,17 +46,25 @@
     margin-right: 50px;
 
 }
+.moreHidden{
+    display: none;
+}
 .min-w{
     min-width: 80px;
 }
 .menu{
-    top: 75px;
+    top: 62px;
     left: 0px;
+    z-index: 10001;
     
 }
 @media (max-width:1700px){
     .tab-9{
-        display: none;;
+        display: none;
+        
+    }
+    .moreHidden{
+        display: flex;
     }
 }
 @media (max-width:1600px){
@@ -136,6 +144,12 @@
         width: fit-content;
         margin-right: 15px;
     
+    }
+    .menu{
+        top: 45px;
+        left: 0px;
+        
+        
     }
    
 }
