@@ -3,13 +3,11 @@ import "./Navbar.css";
 import { IoSearch } from "react-icons/io5";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import Menu from "./Menu/Menu";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  // const [conditionalWidth, setConditionalWidth] = useState(1760);
-  // const [responsiveIndex, setResponsiveIndex] = useState(10);
+
   const toggleMenue = () => {
     setMenuOpen(!isMenuOpen);
   };
@@ -54,37 +52,10 @@ const Navbar = () => {
       id: 10,
       title: "Botanical",
     },
-    // {
-    //   id: 11,
-    //   title: "Category Name",
-    // },
-    
-  ];
-  // const handleResize = () => {
-  //   if (conditionalWidth-windowWidth>150){
-  //     setConditionalWidth(windowWidth);
-  //     setResponsiveIndex(responsiveIndex-1);
-  //   }
-  //   if (windowWidth-conditionalWidth>150){
-  //     setConditionalWidth(windowWidth);
-  //     setResponsiveIndex(responsiveIndex+1);
-  //   }
-  //   const newWidth = window.innerWidth;
-  //   setWindowWidth(newWidth);
-  // };
-  
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", handleResize);
-
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //   };
-  // }, [windowWidth]);
+   ];
   return (
     <div className="flex navbar justify-between item-center">
-      {/* <p>{windowWidth}</p> */}
-      {/* <div className="flex w-fit mx-auto"> */}
+      
 
       
       <div className="logo flex w-fit h-fit item-center">
@@ -93,7 +64,7 @@ const Navbar = () => {
       </div>
       <div className="Navbar-Content flex item-center uppercase">
         {tabs.map((item, i) => (
-          <p className={`tabs  pointer ${/*i>=responsiveIndex?"hidden":"flex"*/""} tab-${i}`} key={i}>
+          <p className={`tabs pointer tab-${i}`} key={i}>
             {item.title}
           </p>
         ))}
@@ -125,7 +96,7 @@ const Navbar = () => {
           className="search-box"
         />
       </div>
-      {/* </div> */}
+  
     </div>
   );
 };
