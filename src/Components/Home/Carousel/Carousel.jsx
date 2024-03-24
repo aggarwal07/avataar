@@ -52,22 +52,32 @@ const Carousel = () => {
     const mainDiv = document.getElementById("mainDiv");
     mainDiv.classList.add("fade-out");
     document.querySelector(".imageBox").classList.add("activeF");
-    document.querySelector(".second-row").classList.add("activeF");
+    const elements = document.getElementsByClassName("second-row");
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].classList.add("activeF");
+    }
     setTimeout(() => {
       mainDiv.classList.remove("fade-out");
       document.querySelector(".imageBox").classList.remove("activeF");
-      document.querySelector(".second-row").classList.remove("activeF");
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove("activeF");
+      }
     }, 250);
   };
   const fadeB = () => {
     const mainDiv = document.getElementById("mainDiv");
     mainDiv.classList.add("fade-out");
     document.querySelector(".imageBox").classList.add("activeB");
-    document.querySelector(".second-row").classList.add("activeB");
+    const elements = document.getElementsByClassName("second-row");
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].classList.add("activeB");
+    }
     setTimeout(() => {
       mainDiv.classList.remove("fade-out");
       document.querySelector(".imageBox").classList.remove("activeB");
-      document.querySelector(".second-row").classList.remove("activeB");
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove("activeB");
+      }
     }, 250);
   };
 
