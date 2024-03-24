@@ -56,11 +56,18 @@ const Carousel = () => {
     for (let i = 0; i < elements.length; i++) {
       elements[i].classList.add("activeF");
     }
+    const elements3 = document.getElementsByClassName("third-row");
+    for (let i = 0; i < elements3.length; i++) {
+      elements3[i].classList.add("activeF");
+    }
     setTimeout(() => {
       mainDiv.classList.remove("fade-out");
       document.querySelector(".imageBox").classList.remove("activeF");
       for (let i = 0; i < elements.length; i++) {
         elements[i].classList.remove("activeF");
+      }
+      for (let i = 0; i < elements3.length; i++) {
+        elements3[i].classList.remove("activeF");
       }
     }, 250);
   };
@@ -72,11 +79,18 @@ const Carousel = () => {
     for (let i = 0; i < elements.length; i++) {
       elements[i].classList.add("activeB");
     }
+    const elements3 = document.getElementsByClassName("third-row");
+    for (let i = 0; i < elements3.length; i++) {
+      elements3[i].classList.add("activeB");
+    }
     setTimeout(() => {
       mainDiv.classList.remove("fade-out");
       document.querySelector(".imageBox").classList.remove("activeB");
       for (let i = 0; i < elements.length; i++) {
         elements[i].classList.remove("activeB");
+      }
+      for (let i = 0; i < elements3.length; i++) {
+        elements3[i].classList.remove("activeB");
       }
     }, 250);
   };

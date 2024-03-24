@@ -108,9 +108,12 @@
     transition: transform 0.5s ease;
     
 }
-/* .third-row.active {
-    transform: translateX(-15%);
-  } */
+.third-row.activeF {
+    transform: translateX(-10%);
+}
+.third-row.activeB {
+    transform: translateX(10%);
+}
 .left-3{
     left: 2vw;
 }
