@@ -54,49 +54,49 @@
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:1450px){
+@media (max-width:1459px){
     .menu-7{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:1330px){
+@media (max-width:1344px){
     .menu-6{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:1250px){
+@media (max-width:1267px){
     .menu-5{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:1140px){
+@media (max-width:1162px){
     .menu-4{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:1047px){
+@media (max-width:1075px){
     .menu-3{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:973px){
+@media (max-width:999px){
     .menu-2{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:894px){
+@media (max-width:921px){
     .menu-1{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;
     }
 }
-@media (max-width:762px){
+@media (max-width:790px){
     .menu-0{
         display: block;
         animation: opacityMenu 0.6s ease-in-out;

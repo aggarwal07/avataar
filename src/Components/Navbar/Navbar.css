@@ -5,6 +5,9 @@
     height: 118ox;
     padding: 0em 32px;
 }
+.Logo{
+    padding-right: 4px;
+}
 .Logo-Text{
     font-weight: 800;
     font-size: 2em;
@@ -73,42 +76,42 @@
         display: none;;
     }
 }
-@media (max-width:1450px){
+@media (max-width:1459px){
     .tab-7{
         display: none;;
     }
 }
-@media (max-width:1330px){
+@media (max-width:1344px){
     .tab-6{
         display: none;;
     }
 }
-@media (max-width:1250px){
+@media (max-width:1267px){
     .tab-5{
         display: none;;
     }
 }
-@media (max-width:1140px){
+@media (max-width:1162px){
     .tab-4{
         display: none;;
     }
 }
-@media (max-width:1047px){
+@media (max-width:1075px){
     .tab-3{
         display: none;;
     }
 }
-@media (max-width:973px){
+@media (max-width:999px){
     .tab-2{
         display: none;;
     }
 }
-@media (max-width:894px){
+@media (max-width:921px){
     .tab-1{
         display: none;;
     }
 }
-@media (max-width:762px){
+@media (max-width:790px){
     .tab-0{
         display: none;;
     }

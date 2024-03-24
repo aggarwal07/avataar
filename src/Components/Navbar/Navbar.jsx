@@ -59,7 +59,7 @@ const Navbar = () => {
 
       
       <div className="logo flex w-fit h-fit item-center">
-        {/* <img src="" alt="Logo" /> */}
+        <img src="./Images/Intersect.png" alt="Logo" className="Logo" />
         <p className="Logo-Text min-w">E-COMM</p>
       </div>
       <div className="Navbar-Content flex item-center uppercase">
