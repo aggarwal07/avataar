@@ -9,7 +9,14 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
+    transition: transform 0.5s ease;
 }
+.imageBox.activeF {
+    transform: translateX(-15%);
+  }
+.imageBox.activeB {
+    transform: translateX(15%);
+  }
 .caption{
     display: flex;
     align-items: center;
@@ -71,8 +78,14 @@
     position: absolute;
     z-index: 500;
     opacity: 0.82;
-    
-}
+    transition: transform 0.5s ease;
+    }
+.second-row.activeF {
+        transform: translateX(-10%);
+    }
+.second-row.activeB {
+        transform: translateX(10%);
+    }
 .left-2{
     left: 12vw;
 }
@@ -92,8 +105,12 @@
     position: absolute;
     z-index: 200;
     opacity: 0.6;
+    transition: transform 0.5s ease;
     
 }
+/* .third-row.active {
+    transform: translateX(-15%);
+  } */
 .left-3{
     left: 2vw;
 }
@@ -207,3 +224,14 @@
     }
         
 }
+@keyframes opacity{
+   0%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.fade-out {
+    animation: opacity 0.7s ease-in-out; /* Adjust the duration and easing as needed */
+  }
