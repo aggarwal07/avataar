@@ -27,16 +27,17 @@
  padding-left: 6px;
 }
 .search-box{
+    border: none;
     background-color: #2F302C;
-    
     min-width: 160px;
-    width: 200px;
+    width: 340px;
     min-height: 44px;
     padding: 0.4em;
     outline: none;
     color:white;
     font-size: 1em;
     padding-left: 45px;
+    border-bottom: 1px solid white;
 
 }
 
@@ -92,22 +93,22 @@
         display: none;;
     }
 }
-@media (max-width:1045px){
+@media (max-width:1047px){
     .tab-3{
         display: none;;
     }
 }
-@media (max-width:940px){
+@media (max-width:973px){
     .tab-2{
         display: none;;
     }
 }
-@media (max-width:840px){
+@media (max-width:894px){
     .tab-1{
         display: none;;
     }
 }
-@media (max-width:750px){
+@media (max-width:762px){
     .tab-0{
         display: none;;
     }
@@ -121,10 +122,10 @@
     }
     .search-box{
          min-width: 100px;
-         width: 150px;
+         width: 120px;
          min-height: 30px;
          font-size: 0.7em;
-         padding-left: 35px;
+         padding-left: 40px;
         
     }
     .arrowMobile{

@@ -88,7 +88,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="search-bar flex item-center">
-        <IoSearch className="search-logo arrowWindow" size={30} />
+        <IoSearch className="search-logo arrowWindow" size={25} />
         <IoSearch className="search-logo arrowMobile" size={20} />
         <input
           id="search"

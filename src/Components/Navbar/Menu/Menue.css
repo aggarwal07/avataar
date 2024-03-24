@@ -47,22 +47,22 @@
         display: block;;
     }
 }
-@media (max-width:1045px){
+@media (max-width:1047px){
     .menu-3{
         display: block;;
     }
 }
-@media (max-width:940px){
+@media (max-width:973px){
     .menu-2{
         display: block;;
     }
 }
-@media (max-width:840px){
+@media (max-width:894px){
     .menu-1{
         display: block;;
     }
 }
-@media (max-width:750px){
+@media (max-width:762px){
     .menu-0{
         display: block;;
     }
