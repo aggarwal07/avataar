@@ -24,7 +24,7 @@
         transform: translateY(0);
     }
 }
-@keyframes opacity {
+@keyframes opacityMenu {
     0% {
         display: none;
         opacity: 0;
@@ -45,61 +45,61 @@
 @media (max-width:1700px){
     .menu-9{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:1600px){
     .menu-8{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:1450px){
     .menu-7{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:1330px){
     .menu-6{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:1250px){
     .menu-5{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:1140px){
     .menu-4{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:1047px){
     .menu-3{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:973px){
     .menu-2{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:894px){
     .menu-1{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 @media (max-width:762px){
     .menu-0{
         display: block;
-        animation: opacity 0.6s ease-in-out;
+        animation: opacityMenu 0.6s ease-in-out;
     }
 }
 
